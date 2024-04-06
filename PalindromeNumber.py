@@ -1,6 +1,5 @@
 class Solution:
     def isPalindrome(self, number: int) -> bool:
-
         #If the integer is negativ it cant be a palindrom
         if number < 0:
             return False
